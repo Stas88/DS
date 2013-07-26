@@ -1,0 +1,60 @@
+<com.andreaszeiser.jalousie.LinearLayoutJalousie xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/jalousie"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/item_background"
+    android:clickable="true"
+    android:onClick="onClickHashMap"
+    android:orientation="vertical" >
+	    
+    	<RelativeLayout
+            android:layout_width="wrap_content"
+	            android:layout_marginLeft="8dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+	        <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="vertical" >
+			    
+				 <TextView
+			        android:id="@+id/hashmap"
+			        android:layout_width="fill_parent"
+			        android:layout_height="wrap_content"
+			        android:textSize="20sp"
+			        android:textColor="@color/blue"
+		        	android:typeface="sans"
+			        android:text="HashMap"
+					 />
+				 
+				 <TextView
+				     android:id="@+id/arraylist_description"
+				     android:layout_width="fill_parent"
+				     android:layout_height="wrap_content"
+				     android:layout_marginBottom="8dp"
+				     android:text="10000 elements (int, String)"
+				     android:textColor="@android:color/white"
+				     android:textSize="12sp"
+				     android:typeface="sans" />
+				 
+			</LinearLayout>
+			
+	        <ImageView
+	            android:id="@+id/arrow_down"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingRight="16dp"
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+	            android:src="@drawable/arrow_down" />
+        
+        </RelativeLayout>
+        
+         <com.andreaszeiser.jalousie.Separator
+	        android:layout_width="fill_parent"
+	        android:layout_height="0dp" />
+	
+	    <include layout="@layout/hashmap_layout" />
+		 
+	</com.andreaszeiser.jalousie.LinearLayoutJalousie>
