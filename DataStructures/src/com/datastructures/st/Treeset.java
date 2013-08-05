@@ -1,17 +1,17 @@
-package com.example.datastructures;
+package com.datastructures.st;
 
-import java.util.HashSet;
+import java.util.TreeSet;
 
 /**
  * Created by stanislavsikorsyi on 08.07.13.
  */
-public class Hashset {
+public class Treeset {
 
 
-    private HashSet set;
+    private TreeSet set;
 
-    public Hashset() {
-        set = new HashSet();
+    public Treeset() {
+        set = new TreeSet();
     }
 
     public <T> long fill(int size) {
@@ -34,4 +34,3 @@ public class Hashset {
         return  System.nanoTime() - start;
     }
 }
-

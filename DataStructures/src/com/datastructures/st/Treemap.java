@@ -1,4 +1,4 @@
-package com.example.datastructures;
+package com.datastructures.st;
 
 import java.util.TreeMap;
 

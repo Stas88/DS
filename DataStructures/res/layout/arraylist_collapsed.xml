@@ -55,7 +55,14 @@
          <com.andreaszeiser.jalousie.Separator
 	        android:layout_width="fill_parent"
 	        android:layout_height="0dp" />
+         
+         <View
+	       android:layout_width="fill_parent"
+	       android:layout_height="2dp"
+	       android:background="@android:color/white" />
 	
 	    <include layout="@layout/arraylist_layout" />
+	    
+	    
 		 
 	</com.andreaszeiser.jalousie.LinearLayoutJalousie>

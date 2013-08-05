@@ -1,4 +1,4 @@
-package com.example.datastructures;
+package com.datastructures.st;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
@@ -143,6 +143,7 @@ public class MainActivity extends Activity {
    		 new TreeMapTask().execute();
    	 } else {
    		 jalousie.collapse();
+   		 
    	 }
    }
    
